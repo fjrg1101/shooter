@@ -6,17 +6,17 @@ class Game {
      * Inicializa un juego
      */
     constructor () {
-        this.started = false; // Indica si el juego ha comenzado o no
-        this.ended = false; // Indica si el juego ha terminado o no
-        this.keyPressed = undefined; // Indica la tecla que está pulsando el usuario
-        this.width = 0; // Ancho de la pantalla del juego
-        this.height = 0; // Alto de la pantalla del juego
-        this.player = undefined; // Instancia del personaje principal del juego
-        this.playerShots = []; // Disparos del personaje principal
-        this.opponent = undefined; // Instancia del oponente del juego
-        this.opponentShots = []; // Disparos del oponente
-        this.xDown = null; //  Posición en la que el usuario ha tocado la pantalla
-        this.paused = false; // Indica si el juego está pausado
+        this.started = false;           // Indica si el juego ha comenzado o no
+        this.ended = false;             // Indica si el juego ha terminado o no
+        this.keyPressed = undefined;    // Indica la tecla que está pulsando el usuario
+        this.width = 0;                 // Ancho de la pantalla del juego
+        this.height = 0;                // Alto de la pantalla del juego
+        this.player = undefined;        // Instancia del personaje principal del juego
+        this.playerShots = [];          // Disparos del personaje principal
+        this.opponent = undefined;      // Instancia del oponente del juego
+        this.opponentShots = [];        // Disparos del oponente
+        this.xDown = null;              // Posición en la que el usuario ha tocado la pantalla
+        this.paused = false;            // Indica si el juego está pausado
     }
 
     /**
